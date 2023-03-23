@@ -1,0 +1,90 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0070c0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  header li {
+    margin-right: 20px;
+  }
+  
+  header li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 20px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  form fieldset {
+    border: none;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: #0070c0;
+    color: white;
+    border: none;
+    border-radius: }
+
+    selector
+    {
+        background-image: url(" https://th.bing.com/th/id/OIP.I94Eitlz_FGyJxDS0ysooAHaFj?pid=ImgDet&rs=1");
+        background-image: linear-gradient(to right, red, orange, yellow);
+   
+    }

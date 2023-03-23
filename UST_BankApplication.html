@@ -1,0 +1,74 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bank Application</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Bank.css">
+    </head>
+    <body>
+        <header>
+                <h1><B>NET BANKING</B></h1>
+        </header>
+
+        <nav>
+            <ul>
+           <li> <a href="file:///C:/Users/Administrator/Desktop/HTML/USTBANK.html#"><b>Home</b></a> </li>
+           <li><a href="file:///C:/Users/Administrator/Desktop/HTML/About%20Us.html"><b>About Us</b></a> </li>
+           <li><a href="file:///C:/Users/Administrator/Desktop/HTML/Contact%20us.html"><b>Contact Us</b></a></li>
+            </ul>
+          </nav>
+          <div class="container">
+            <h2><B>BANK FORM</B></h2>
+            <P>"current-date:</P>
+            <p id="current-date"></p>
+            <script>
+                var currentDate=new Date();
+                document.getElementById("current-date").innerHTML=currentDate;
+            </script>
+            <form>
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name" required> <br>
+                <label for="aadhar"><b>Aadhar Number:</b></label>
+                <input pattern="[0-9]{12}" type="text" id="aadhar" name="aadhar" placeholder="Enter Aadhar Number" required><br>
+                <label for="pan"><b>PAN Number:</b></label>
+                <input  type="text" id="pan" name="pan" placeholder="Enter PAN Number" required><br>
+                <label for="branch"><b>Branch:</b></label>
+                <input type="text" id="branch" name="branch" required><br>
+                <label for="amount"><b>Amount:</b></label>
+                <input type="number" id="amount" name="amount" required><br>
+                <label for="time"><b>Time:</b></label>
+                <input type="number" id="time" name="time" required><br>
+                <label for="rate"><b>Rate:</b></label>
+                <input type="number" id="rate" name="rate" required><br>
+               <label for="total"><b>Total Interest:</b></label>
+                <input type="number" id="total" name="total" required><br>
+    
+            
+                <button type="submit"><b>Submit</b></button>
+
+            </form>
+            <button onclick="calculate()">Calculate interest</button>
+        </div>
+
+        <script>
+            function calculate(){
+            var p = document.getElementById("amount").value;
+            var r = document.getElementById("rate").value;
+            var t = document.getElementById("time").value;
+            var re=document.getElementById("total")
+            var i = (p*r*t)/100;
+            document.getElementById("total").value = i;
+            }
+            
+          </script>
+   
+    </body>
+</html>>
+   

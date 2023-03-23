@@ -1,0 +1,138 @@
+.container {
+	margin: 50px auto;
+	max-width: 500px;
+	background-color:azure;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://th.bing.com/th/id/OIP.I94Eitlz_FGyJxDS0ysooAHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1,h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+nav {
+	background-color: #333;
+	height: 50px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+  }
+  
+  nav ul li {
+	flex-basis: 25%;
+  }
+  
+  nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+  }
+  
+  
+
+
+body {
+    background-color: azure;
+        background-size: cover; /* Adjust the size of the image to cover the entire screen */
+		background-position: center center;
+        background-attachment: fixed; /* Fix the image in place */
+      }
+	  img{
+		width: 50%;
+		height: 50%;
+		align-items: center;
+		
+	}
+
+	.ust{
+		display: flex;
+		justify-content: center;
+	}
+      
+/*..................*/
+header {
+	background-color: #2727293f;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 36px;
+	margin: 0;
+  }
+  
+  form {
+	margin: 20px auto;
+	max-width: 500px;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #070607;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+	display: block;
+	background-color: #020f0270;
+	color: #ececec;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #0056b3;
+  }
+  
+  
+
+
+
