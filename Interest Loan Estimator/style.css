@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: #0c0808;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    text-align: left;
+    background-color: #947286;
+    padding: 10px;
+}
+
+thead {
+    text-align: center;
+}
+
+#tablemain {
+    margin-left: 35%;
+}
+
+#Estimate {
+    background-color: #7c3c67be;
+    color: #000000;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+}
